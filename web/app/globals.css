@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #faf7f2;
+  --fg: #064e3b;
+  --muted: #3f5f52;
+  --card: #ffffff;
+  --ring: #059669;
+}
+
+html.dark {
+  --bg: #0b1612;
+  --fg: #e8f0eb;
+  --muted: #9bb0a4;
+  --card: #12221c;
+  --ring: #34d399;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  min-height: 100dvh;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.lang-fade {
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .lang-fade {
+    transition-property: opacity, transform, color, background-color;
+  }
+}
+
+:focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  inset-inline-start: 1rem;
+  top: -100%;
+  z-index: 100;
+  background: #065f46;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  min-height: 48px;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}

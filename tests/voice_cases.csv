@@ -1,0 +1,21 @@
+id,spoken_text,expected_crop,expected_quantity_maunds,expected_district,expected_quote_per_maund
+1,"40 maund tamatar hain Okara mein, broker 2800 de raha hai",Tomato,40,Okara,2800
+2,"mere paas 50 maund gandum hai Multan mein, rate 3800 rupay maund",Wheat,50,Multan,3800
+3,ڈھائی سو من پیاز ہے سرگودھا میں، آڑھتی 1800 روپے من مانگ رہا ہے,Onion,250,Sargodha,1800
+4,"I have 100 maunds of potatoes in Lahore, buyer offers 2500 rupees per maund",Potato,100,Lahore,2500
+5,do hazar kilo tamatar Faisalabad mein hain 90 rupay kilo,Tomato,50,Faisalabad,3600
+6,chalees maund aloo Sahiwal mein hain,Potato,40,Sahiwal,
+7,"30 maund pyaz Gujranwala, rate 1900",Onion,30,Gujranwala,1900
+8,mere paas 60 maund gandum hai Rawalpindi mein 3700 ka rate mil raha hai,Wheat,60,Rawalpindi,3700
+9,۴۰ من ٹماٹر اوکاڑہ میں ہیں ۲۸۰۰ روپے,Tomato,40,Okara,2800
+10,"pachas maund tamatar Kasur mein, 2600 rupay man",Tomato,50,Kasur,2600
+11,"Pattoki mein 35 maund aloo hain, broker 2000 maang raha hai",Potato,35,Kasur,2000
+12,"20 maund onion Multan, price 2100",Onion,20,Multan,2100
+13,derh sau maund gandum Faisalabad 3900 rupay,Wheat,150,Faisalabad,3900
+14,ایک سو بیس من آلو لاہور میں,Potato,120,Lahore,
+15,I have 75 maunds of wheat in Bahawalpur and the offer is Rs 3600,Wheat,75,Bahawalpur,3600
+16,tamatar 25 maund Sargodha mein 85 rupay kilo,Tomato,25,Sargodha,3400
+17,80 maund gandum Sialkot,Wheat,80,Sialkot,
+18,dhai sau maund pyaz Okara 1750 rupay maund,Onion,250,Okara,1750
+19,4000 kg aloo Multan 55 rupay per kg,Potato,100,Multan,2200
+20,"mere paas 90 maund tamatar hain Jhang mein, rate 2400 hai",Tomato,90,Jhang,2400

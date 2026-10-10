@@ -2,10 +2,30 @@
 venv/
 .venv/
 
+# Next.js web app
+web/node_modules/
+web/.next/
+web/.env.local
+web/out/
+
 # Ignore Python Cache
 __pycache__/
 *.pyc
+.pytest_cache/
 
 # Ignore IDE & Environment settings
 .vscode/
 .env
+.streamlit/secrets.toml
+
+# AMIS raw HTML cache (fetched pages)
+data/raw/
+
+# Weather SQLite cache
+data/weather_cache.db
+
+# Dev / local
+.coverage
+htmlcov/
+*.pptx~
+docs/backup/*.png

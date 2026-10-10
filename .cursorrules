@@ -1,0 +1,20 @@
+# Sahi Daam AI — Cursor Rules
+
+## Project Context
+
+- **Project Name:** Sahi Daam AI
+- **Domain:** Agricultural Operations (AICON'26)
+- **Primary Focus:** Voice-first fair-price, harvest-or-hold, and city re-routing advisor for mandi sales.
+
+## Coding Guidelines
+
+1. **Architecture:** Build a single-file/single-repo Python application combining Streamlit UI and core logic modules. Do NOT create microservices or complex database ORMs.
+
+2. **Maund calculation:** Calculate maunds strictly as: 100 kg = 2.5 maunds.  
+   Price per maund = AMIS price per 100 kg / 2.5.
+
+3. **Price quote verdicts:** All price quote verdicts MUST state "below wholesale range" rather than accusing brokers of cheating.
+
+4. **Weather-harvest recommendations:** Restrict all weather-harvest recommendations strictly to generic, non-chemical advice (shading, ventilation, tarpaulins, harvest timing) with explicit agronomic disclaimers.
+
+5. **External APIs:** All external API calls MUST include a 5-second timeout and fall back to local SQLite cached data.
