@@ -225,9 +225,10 @@ Portions of this repository were drafted and refactored with **Cursor** and larg
 
 | Member | Role | Contributions |
 | --- | --- | --- |
-| | | |
-| | | |
-| | | |
+| Abdul Raffay | | |
+| Waleed Ghauri| | |
+| Abdullah Safeer| | |
+| Waleed Ahmad | | |
 
 ---
 
